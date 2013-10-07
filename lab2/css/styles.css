@@ -1,0 +1,115 @@
+/* Google web fonts 'Open Sans' (italic and normal) and 'Boogaloo' */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Boogaloo);
+
+/* reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+
+body {
+    background-image: url(../img/texture-light.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.content-box {
+	width: 80%;
+	background-color: #FFF;
+	margin: 0 auto;
+	box-shadow: 2px 2px 6px #555;
+	padding: 10px
+}	
+
+.logo {
+	float: left;
+}
+
+.company-name {
+	font-family: 'Boogaloo';
+	font-size: 36px;
+	color: #116189;
+	padding: 5px;
+}
+
+.motto {
+	font-style: italic;
+	font-size: 120%;
+	padding: 5px;
+	padding-bottom: 20px
+}
+
+nav ul {
+	background-color: #D74710;
+	width: 100%;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF9A40;
+	border-radius: 5px;
+}
+
+.factory {
+	float: left;
+	padding-right:10px;
+}
+
+.free-shipping {
+	float: right;
+}
+
+.footer {
+	padding-top: 10px;
+	border-top-width: thin;
+	border-top-color: #A9A9A9;
+	border-top-style: solid;
+	font-style: italic;
+	font-size: 80%;
+}
+
+address a:link,
+address a:visited {
+	text-decoration:none;
+}
+
+address a:hover {
+	text-decoration:underline;
+}
+
+h2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #116189;
+	font-size: 26px
+}
+
+h3 {
+	font-weight: bold;
+	color: #116189;
+	font-size: 18px;
+}
+
+.person {
+	float: left;
+}
